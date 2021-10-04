@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--Touch Swipe-->
+
+
+</head>
+<body>
+    <div data-role="page" id="demo-page" data-url="demo-page">
+
+                <!-- Header -->
+                <div data-role="header" style="background-color: rgb(10, 92, 199);" data-position="fixed">
+
+                        <nav > 
+                            <div style="text-align: center;">
+                                <a class="brand" style="margin: 0; float: none; text-align:center" href="../Iphone/Home.html">
+                                    <img src="../Photos/Logo/new logo white font.png" width="150" height="60" class="d-inline-block align-top navbar-collapse" alt="">			
+                                </a>
+                            </div>
+                        </nav>                                
+                        <table>
+                            <tr>
+                                <td> <a style="margin-top: 35px;" href="#left-panel" style="background-color: rgb(10, 92, 199);" data-icon="custom" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc"><img src="../Icons/bars.png" style=" width: 30px; height: 30px;"></a> </td>
+                                <td style="width: 100%;"> <input type="search"  name="search" id="search-basic" placeholder="Search.." value="" /></td>
+                                <td> <a style="margin-top: 35px;" href="" style="background-color: rgb(10, 92, 199);" data-icon="custom" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc"><img src="../Icons/qr.png" style=" width: 30px; height: 30px;"></a> </td>
+                                <td> <a style="margin-top: 35px;" href="" style="background-color: rgb(10, 92, 199);" data-icon="custom" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc"><img src="../Icons/camera.png" style=" width: 30px; height: 30px;"></a> </td>
+                            </tr>
+                        </table>                                                                                                                                       
+                </div><!-- /header --> 
+
+
+                <div data-role="panel" id="left-panel" data-theme="b" >
+                        <h3 style="text-align: center;"> Categories </h3>
+                        <a href="#" class="ui-btn">All Categories</a>
+                        <a href="#" class="ui-btn">Grocery</a>
+                        <a href="#" class="ui-btn">House Hold</a>
+                        <a href="#" class="ui-btn">Meat</a>
+                        <a href="#" class="ui-btn">Beverages</a>
+                        <a href="#" class="ui-btn">Vegetales</a>
+                        <a href="#" class="ui-btn">Pharmecy</a>
+                        <a href="#" class="ui-btn">Toys</a>  
+                        <a href="#" class="ui-btn">cosmetics</a>
+                        <a href="#" class="ui-btn">Laundry</a>
+                        <a href="#" class="ui-btn">Chilled</a>
+                        <a href="#" class="ui-btn">Pet Care</a>
+    
+                                          
+                    </div><!-- /panel -->
+                    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+                        <p>Right push panel.</p>
+                        <a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+                    </div><!-- /panel -->
+
+                    <!-- body -->
+                    <div data-role="main" class="ui-content" style="position:absolute; top:0px; bottom:40px; left:0px; right:0px; overflow:auto;"> 
+
+                            <div>                
+                                    <b><p style="font-size: medium; color: rgb(0, 0, 0); text-align: center; font-style: inherit;">Dash shopping cart</p></b>    
+                                    
+                            </div>
+
+                            <div class="chartBoder">
+
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row no-gutters">
+                                            <div class="col-xs" >
+                                            <img src="../Photos/Cropped/milo.jpg" style="width: 100px;"  class="card-img" alt="...">
+                                            </div>
+                                            <div class="col-xs">
+                                                <div class="card-body">
+                                                        <table>
+                                                                <tr>
+                                                                    <td class="card-text" style="font-size: smaller; color: black; padding-right: 18px;">
+                                                                        Milo 200g
+                                                                        <br><a style="font-size:x-small; color: black;">Qty 2</a>
+                                                                        <br><a style="font-size:x-small; color: black;"> <img src="../Icons/tick.jpg" style="height: 15px; width: 10px;"> Offer Applied</a>
+                                                                    
+                                                                    </td>
+                                                                    <td class="card-text" style="font-size: smaller; color: black; padding-top: 10px; text-align: center;">Rs.400.00</td>
+                                                                </tr>
+                                                            </table>                 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                    
+                                    <div class="card mb-3" style="max-width: 540px;">
+                                            <div class="row no-gutters">
+                                                <div class="col-xs" >
+                                                <img src="../Photos/Cropped/anchor.jpg" style="width: 100px;"  class="card-img" alt="...">
+                                                </div>
+                                                <div class="col-xs">
+                                                    <div class="card-body">
+
+                                                        <table>
+                                                            <tr>
+                                                                <td class="card-text" style="font-size: smaller; color: black; padding-right: 18px;">
+                                                                    Anchor 400g
+                                                                    <br><a style="font-size:x-small; color: black;">Qty 10</a>
+                                                                    <br><a style="font-size:x-small; color: black;"> <img src="../Icons/tick.jpg" style="height: 15px; width: 10px;"> Offer Applied</a>
+                                                                
+                                                                </td>
+                                                                <td class="card-text" style="font-size: smaller; color: black; padding-top: 10px; text-align: center;">Rs.3500.00</td>
+                                                            </tr>
+                                                        </table>
+                                                                                              
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>  
+
+                                        <div class="card mb-3" style="max-width: 540px;">
+                                                <div class="row no-gutters">
+                                                    <div class="col-xs" >
+                                                    <img src="../Photos/Cropped/oil.jpg" style="width: 100px;"  class="card-img" alt="...">
+                                                    </div>
+                                                    <div class="col-xs">
+                                                        <div class="card-body">
+                                                                <table>
+                                                                        <tr>
+                                                                            <td class="card-text" style="font-size: smaller; color: black; padding-right: 18px;">
+                                                                                Oil 4.5L
+                                                                                <br><a style="font-size:x-small; color: black;">Qty 1</a>
+                                                                                <br><a style="font-size:x-small; color: black;"> <img src="../Icons/tick.jpg" style="height: 15px; width: 10px;"> Offer Applied</a>
+                                                                            
+                                                                            </td>
+                                                                            <td class="card-text" style="font-size: smaller; color: black; padding-top: 10px; text-align: center;">Rs.800.00</td>
+                                                                        </tr>
+                                                                    </table>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>  
+
+                                            <div class="card mb-3" style="max-width: 540px;">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-xs" >
+                                                        <img src="../Photos/Products/krisco__70401.1397031795.1280.1280.jpg" style="width: 100px;"  class="card-img" alt="...">
+                                                        </div>
+                                                        <div class="col-xs">
+                                                            <div class="card-body">
+                                                                    <table>
+                                                                            <tr>
+                                                                                <td class="card-text" style="font-size: smaller; color: black; padding-right: 18px;">
+                                                                                    Krisco Tin
+                                                                                    <br><a style="font-size:x-small; color: black;">Qty 5</a>
+                                                                                    <br><a style="font-size:x-small; color: black;"> <img src="../Icons/star.png" style="height: 15px; width: 10px;"> Best selling</a>
+                                                                                
+                                                                                </td>
+                                                                                <td class="card-text" style="font-size: smaller; color: black; padding-top: 10px; text-align: center;">Rs.250.00</td>
+                                                                            </tr>
+                                                                        </table>  
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  
+
+                            </div>
+
+                            <div>
+                                <Form>
+                                        <fieldset data-role="controlgroup" data-mini="true">                                                
+                                                <input type="radio" name="radio-choice-v-6" id="radio-choice-v-6a" value="on" checked="checked">
+                                                <label for="radio-choice-v-6a">Door Deliver [10/1 Fussels Lane] </label>
+                                                <input type="radio" name="radio-choice-v-6" id="radio-choice-v-6b" value="off">
+                                                <label for="radio-choice-v-6b">Store Pickup</label>
+                                            </fieldset>
+                                            <div class="card bg-light text-dark">
+                                                    <div class="card-body">
+                                                        <table>
+                                                            <tr>
+                                                                <td style="font-size: 11px; padding-right: 100px;">
+                                                                    Items (4)
+                                                                    <br><a style="font-size: 13px;">Sub Total</a>
+                                                                    <br><a style="font-size: 12px; color: rgb(131, 202, 59);">Promotions</a>
+                                                                    <br><a style="font-size: 12px;">Charges</a>
+                                                                    <br><a style="font-size: 15px;">Total</a>
+                                                                </td>
+                                                                <td>
+                                                                        <br><a style="font-size: 13px;">Rs.4950.00</a>
+                                                                        <br><a style="font-size: 12px; color: rgb(131, 202, 59);"> - Rs.50.00</a>
+                                                                        <br><a style="font-size: 12px;">Rs.100.00</a>
+                                                                        <br><a style="font-size: 15px;">Rs.5000.00</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                            </div>
+
+                                </Form>
+                            </div>
+                            <br>
+
+                            <div>
+                                <label>Payment Method</label>
+                                <fieldset data-role="controlgroup" data-mini="true">                                                
+                                        <input type="radio" name="pay" id="pay-a" value="on" onclick="showCard()" checked="checked">
+                                        <label for="pay-a">Card</label>
+                                        <input type="radio" name="pay" id="pa-b" value="off" onclick="showCash()">
+                                        <label for="pa-b">Cash</label>
+                                </fieldset>                                                                
+                            </div>
+                            <div>
+                                <div id="cardPay">
+                                        <div class="card" style="width: 21rem;">
+                                                <img src="../Photos/Logo/card.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Visa Card: Shafraz</h4>
+                                                  <p class="card-text">
+                                                      Card Number: 3452-1276-7865-8763                                                  
+                                                  </p>
+                                                </div>
+                                              </div>
+                                </div>
+                                <br>
+                                <div id="cashPay" style="display: none;">
+
+                                        <div class="card" style="width: 21rem;">
+                                                <img src="../Photos/Logo/money.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h4>Cash on pay</h4>
+                                                </div>
+                                              </div>
+                                </div>                                                                              
+
+                            </div>
+
+                            <div>
+                                <button id="checkout" style="background-color: rgb(10, 92, 199); color: whitesmoke;"> Check Out</button>
+                            </div>
+
+                    </div>
+                    <!-- /body  -->
+
+                <!-- footer -->
+                <div data-role="footer" data-postion="fixed" style="bottom:0; position:absolute !important; top: auto !important; width:100%;"> 
+                        <div data-role="navbar">
+                                <ul id="footerButton">
+                                    <li><a href="Login_IphoneP.html" data-icon="home"></a></li>
+                                    <li><a href="#" data-icon="shop" class="ui-btn-active"></a></li>
+                                    <li><a href="#" data-icon="user"></a></li>
+                                    <li><a href="#" data-icon="heart"></a></li>
+                                    <li><a href="#" data-icon="phone"></a></li>
+                                </ul>
+                            </div><!-- /navbar -->
+                  </div>
+                <!-- /footer -->
+    </div>
+
+
+</body>
+
+<style>
+
+#footerButton .ui-btn-active{
+    background-color: rgb(10, 92, 199);;
+}   
+
+.chartBoder{
+    color: rgb(10, 92, 199);
+    border-style: solid;
+    border-color: rgb(112, 112, 112);
+    border-width: 2px;
+    width: 100%;    
+    font-weight: bold; 
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+</style>
+
+<script>
+
+function showCard() {
+  var x = document.getElementById("cardPay");
+  var y = document.getElementById("cashPay");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+  
+}
+
+function showCash() {
+  var x = document.getElementById("cashPay");
+  var y = document.getElementById("cardPay");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+}
+
+</script>

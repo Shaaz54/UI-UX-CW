@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--Touch Swipe-->
+
+
+</head>
+<body>
+    <div data-role="page" id="demo-page" data-url="demo-page">
+
+                <!-- Header -->
+                <div data-role="header" style="background-color: rgb(10, 92, 199);" data-position="fixed">
+
+                        <nav > 
+                            <div style="text-align: center;">
+                                <a class="brand" style="margin: 0; float: none; text-align:center" href="../Iphone/Home.html">
+                                    <img src="../Photos/Logo/new logo white font.png" width="150" height="60" class="d-inline-block align-top navbar-collapse" alt="">			
+                                </a>
+                            </div>
+                        </nav>                                
+                        <table>
+                            <tr>
+                                <td> <a style="margin-top: 35px;" href="#left-panel" style="background-color: rgb(10, 92, 199);" data-icon="custom" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc"><img src="../Icons/bars.png" style=" width: 30px; height: 30px;"></a> </td>
+                                <td style="width: 100%;"> <input type="search"  name="search" id="search-basic" placeholder="Search.." value="" /></td>
+                                <td> <a style="margin-top: 35px;" href="" style="background-color: rgb(10, 92, 199);" data-icon="custom" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc"><img src="../Icons/qr.png" style=" width: 30px; height: 30px;"></a> </td>
+                                <td> <a style="margin-top: 35px;" href="" style="background-color: rgb(10, 92, 199);" data-icon="custom" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc"><img src="../Icons/camera.png" style=" width: 30px; height: 30px;"></a> </td>
+                            </tr>
+                        </table>                                                                                                                                       
+                </div><!-- /header --> 
+
+
+                <div data-role="panel" id="left-panel" data-theme="b" >
+                        <h3 style="text-align: center;"> Categories </h3>
+                        <a href="#" class="ui-btn">All Categories</a>
+                        <a href="#" class="ui-btn">Grocery</a>
+                        <a href="#" class="ui-btn">House Hold</a>
+                        <a href="#" class="ui-btn">Meat</a>
+                        <a href="#" class="ui-btn">Beverages</a>
+                        <a href="#" class="ui-btn">Vegetales</a>
+                        <a href="#" class="ui-btn">Pharmecy</a>
+                        <a href="#" class="ui-btn">Toys</a>  
+                        <a href="#" class="ui-btn">Cosmetics</a>
+                        <a href="#" class="ui-btn">Laundry</a>
+                        <a href="#" class="ui-btn">Chilled</a>
+                        <a href="#" class="ui-btn">Pet Care</a>
+    
+                                          
+                    </div><!-- /panel -->
+                    <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+                        <p>Right push panel.</p>
+                        <a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+                    </div><!-- /panel -->
+
+                    <!-- body -->
+                    <div data-role="main" class="ui-content" style="position:absolute; top:0px; bottom:40px; left:0px; right:0px; overflow:auto;">                                                 
+                        <div>                                                                                               
+                            <p class="homePageSubHeadings" style="text-align: center;"> Favorite Products </p>                                            
+                        </div>
+
+                        <div>
+
+                                <div class="card mb-3" style="max-width: 540px;">
+                                        <div class="row no-gutters">
+                                          <div class="col-md-4">
+                                            <img src="..." class="card-img" alt="...">
+                                          </div>
+                                          <div class="col-md-8">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div> 
+                            
+
+
+                        </div>
+
+                    </div>
+                    <!-- /body  -->
+
+                <!-- footer -->
+                <div data-role="footer" data-postion="fixed" style="bottom:0; position:absolute !important; top: auto !important; width:100%;"> 
+                        <div data-role="navbar">
+                                <ul id="footerButton">
+                                    <li><a href="Login_IphoneP.html" data-icon="home"></a></li>
+                                    <li><a href="#" data-icon="shop" ></a></li>
+                                    <li><a href="#" data-icon="user"></a></li>
+                                    <li><a href="#" data-icon="heart" class="ui-btn-active"></a></li>
+                                    <li><a href="#" data-icon="phone"></a></li>
+                                </ul>
+                            </div><!-- /navbar -->
+                  </div>
+                <!-- /footer -->
+    </div>
+
+
+</body>
+
+<style>
+
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+
+}
+
+.round {
+  border-radius: 50%;
+  color:  rgb(10, 92, 199);
+  border:rgb(10, 92, 199);
+}
+
+.homePageSubHeadings{
+    color: rgb(10, 92, 199);
+    border-style: solid;
+    border-color: rgb(112, 112, 112);
+    border-width: 2px;
+    width: 100%;    
+    font-weight: bold;
+
+}
+
+#footerButton .ui-btn-active{
+    background-color: rgb(10, 92, 199);;
+}   
+
+.chartBoder{
+    color: rgb(10, 92, 199);
+    border-style: solid;
+    border-color: rgb(112, 112, 112);
+    border-width: 2px;
+    width: 100%;    
+    font-weight: bold; 
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+</style>
+
+<script>
+
+function showCard() {
+  var x = document.getElementById("cardPay");
+  var y = document.getElementById("cashPay");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+  
+}
+
+function showCash() {
+  var x = document.getElementById("cashPay");
+  var y = document.getElementById("cardPay");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    x.style.display = "none";
+    y.style.display = "block";
+  }
+}
+
+</script>
